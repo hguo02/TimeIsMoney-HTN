@@ -1,0 +1,106 @@
+body {
+    font-family: Montserrat, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(180, 206, 228);
+    text-align: center;
+    /* background-color: transparent; */
+    /* background-color: black; */
+    /* background-image: url('./../../cfd65ba80ccb8bd706681f9504b5f34c_hacker-avenue_516-196.png'); */
+    /* height: 100%; */
+}
+
+button {
+    background-color: #AAB9CF;
+    border: none;
+    /* border-radius: 0; */
+    transition: background-color 0.2s, transform 0.3s, box-shadow 0.3s;
+}
+
+
+button:hover {
+    background-color: #8fa5c5;
+    transform: translateY(-3px);
+    box-shadow: 0 2px #75859c;
+    
+}
+
+a {
+    color: #5CB0DE;
+}
+
+
+#register-body2, #login-body {
+    height: 100vh;
+}
+
+#register-container, #login-container2 {
+    background-color: #d5e0e9;
+}
+
+
+
+
+/* Nav */
+
+nav {
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 6rem;
+    /* height: 100%; */
+    height: 100vh;
+    background-color: #212227; 
+    font-size: 0.75rem;
+}
+
+svg {
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.main-nav-contents {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+    justify-content: space-around;
+}
+
+.main-nav-contents a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 2em 0;
+}
+
+.nav-settings-contents {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+    justify-content: space-around;
+}
+
+.nav-settings-contents a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 3em 0;
+}
+
+.logout-btn {
+    text-align: center;
+    padding: 3em 0;
+}
+
+#logout-icon {
+    margin-left: 3em;
+}
+
+.subtitle {
+    text-align: left;
+}

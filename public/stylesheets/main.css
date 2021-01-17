@@ -1,0 +1,57 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: lightblue; */
+    background-color: #A8DADC;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url('./../img/cfd65ba80ccb8bd706681f9504b5f34c_hacker-avenue_516-196.png'), 
+                      url('./../img/cfd65ba80ccb8bd706681f9504b5f34c_hacker-avenue_516-196.png'),
+                      url('./../img/cfd65ba80ccb8bd706681f9504b5f34c_hacker-avenue_516-196.png'), 
+                      url('./../img/cfd65ba80ccb8bd706681f9504b5f34c_hacker-avenue_516-196.png'),
+                      url('./../img/cfd65ba80ccb8bd706681f9504b5f34c_hacker-avenue_516-196.png'), 
+                      url('./../img/cfd65ba80ccb8bd706681f9504b5f34c_hacker-avenue_516-196.png');
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: 0% 0%, 100% 80%, 25% 110%, 70% -20%, -40% 60%, 110% 25%;
+
+    /* transform: rotate(90deg); */
+}
+
+h1 {
+    font-weight: 600;
+}
+
+#login, #sign-up {
+    font-size: 1em;
+    margin: 0 0.5em;
+}
+
+.buttons form {
+    display: inline;
+}
+
+
+/* Colour palette 
+Cool Grey - #8693AB
+Beau Blue - #BDD4E7
+Raisin Black - #212227
+Cadet - #637074
+Light Steel Blue - #AAB9CF
+*/
+
+
+
+
+/* .landing-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
